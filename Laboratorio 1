@@ -1,6 +1,6 @@
- Preguntas reflexivas de ambientación
+#Preguntas reflexivas de ambientación
 
-a. ¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30?.
+##a. ¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30?.
 R/. La dirección IP 192.168.10.10/30 pertenece a una subred con una máscara de red /30, lo que significa que solo hay 2 direcciones disponibles para hosts dentro de esa subred. Las direcciones posibles son:
 
 192.168.10.10 (Dirección IP asignada al host)
@@ -78,3 +78,5 @@ Rango de direcciones de Host -->	192.168.254.1-254
 IP Broadcast -->	192.168.1.255
 Server DHCP	--> 192.168.254.254
 Server DNS -->	8.8.8.8
+
+
