@@ -90,7 +90,7 @@ IP Publica -->	190.2.210.158
 Sistema Autónomo --> AS262186
 
 
-#Retardo de la roja
+#Retardo de la red
 
 DNS de Google -->	8.8.8.8	--> 28ms
 Nube DNS -->	1.1.1.1	--> 30ms
@@ -98,3 +98,29 @@ OpenDNS -->	208.67.222.222 --> 94ms
 DNS alternativo -->	76.76.19.19	--> 42ms
 DNS cuádruple9 -->	9.9.9.9	--> 30ms
 AdGuard DNS	--> 94.140.14.14 --> 177ms
+
+
+#Capacidad del canal
+
+Servidor 	Ping/ms 	Down/MB	 Up/MB
+speed test	 39	      96.4	   69.2
+Netflix	    14	      78	     67
+Claro	      13	      74	     31
+nperf	      6.7	     93.6	   54.98
+
+
+#Distancia desde el host
+
+Servidor	           Ping/ms	 Numero de Saltos
+google.com	            28	          11
+GMail.com	             39	          11
+YouTube.com	           32	          11
+dns.google	            30	          11
+aws.amazon.com	        47	          15
+portal.azure.com	      45	          11
+login.live.com	        90	          22
+Facebook.com	          34 	         11
+c.ns.WhatsApp.net	     132	         18
+claro.com.co	          167	         30
+platzi.com	             27	         9
+rappi.com.co	            *	         30
