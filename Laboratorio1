@@ -124,3 +124,40 @@ c.ns.WhatsApp.net	     132	         18
 claro.com.co	          167	         30
 platzi.com	             27	         9
 rappi.com.co	            *	         30
+
+
+
+#Preguntas de conocimiento
+
+## 1.¿Cuál es el retardo esperado para tu red según la tecnología contratada?
+R/. El retardo esperado en una red depende de varios factores, como la tecnología utilizada (fibra óptica, DSL, cable, etc.), 
+la distancia física al proveedor de servicios, la congestión de la red y la calidad general de la infraestructura.
+Por lo tanto, el retardo esperado para mi red es de 35ms.
+
+
+## 2.¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
+R/. Si el retardo medido coincide con el esperado, es una señal de que la red está funcionando dentro de los parámetros normales. 
+Sin embargo, si el retardo medido es significativamente mayor, podría deberse a congestión de red, problemas en la infraestructura, 
+latencia en los saltos de red, entre otros factores. Diferentes condiciones en la red, como rutas de tráfico cambiantes, 
+cambios en la carga de la red y problemas técnicos, pueden afectar el retardo medido. Por lo tanto, si coincide el retardo esperado con la tecnología que contrate.
+
+
+## 3.¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
+R/. La capacidad del canal puede variar en diferentes pruebas debido a la dinámica de la red ya factores externos. 
+La capacidad del canal se ve influenciada por la cantidad de dispositivos conectados, la carga de tráfico en ese momento, 
+la congestión de la red, la calidad del enlace y la tecnología utilizada. 
+Además, la medición puede verse afectada por el ancho de banda real disponible, la calidad de la conexión en ese momento y 
+las limitaciones de los servidores de prueba utilizados.
+
+
+## 4.¿Cuál de los servicios DNS es mejor para configurar mi LAN?
+R/. La elección de un servicio DNS depende de tus necesidades y preferencias. Algunos servicios DNS populares y confiables incluyen Google DNS (8.8.8.8 y 8.8.4.4), 
+OpenDNS (208.67.222.222 y 208.67.220.220) y Cloudflare DNS (1.1.1.1 y 1.0.0.1). Estos servicios ofrecen alta velocidad y seguridad. 
+La elección entre ellos puede basarse en factores como la velocidad de respuesta, la seguridad, las políticas de privacidad y 
+la disponibilidad regional.
+
+## 5.¿Como podría medir la disponibilidad de ni conexión a internet?
+R./ Puedes medir la disponibilidad de tu conexión a Internet utilizando herramientas de monitoreo de red. 
+Una forma común es utilizar servicios en línea que realizan pruebas periódicas de ping y verifican si su conexión está en línea. 
+También puedes usar herramientas como ping( tracerten Windows) o traceroute(en sistemas Unix/Linux) 
+para monitorear la conectividad y el tiempo de respuesta a diferentes servidores en Internet.
